@@ -1,1 +1,0 @@
-tipo_porta = "ruidosa";

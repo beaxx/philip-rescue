@@ -1,3 +1,0 @@
-tem_chave = false;
-
-
