@@ -1,0 +1,1 @@
+previous_room = -1;
