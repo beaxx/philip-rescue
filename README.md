@@ -12,4 +12,5 @@
 <img src="https://img.shields.io/badge/Pixilart-darkred">
 <img src="https://img.shields.io/badge/Pixel%20Studio-red">
 <img src="https://img.shields.io/badge/FL%20Studio-darkorange">
+<img src="https://img.shields.io/badge/Audacity-yellow">
 </P>
