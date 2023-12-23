@@ -18,7 +18,6 @@ alfa_hit = 0;
 
 estado = scr_personagem_movendo;
 
-
 dialogo_ativo = false;
 dialogo_andamento = false;
 depth = -1;

@@ -1,1 +1,1 @@
-room_goto(rm_nivel1);
+room_goto(rm_quarto_a);

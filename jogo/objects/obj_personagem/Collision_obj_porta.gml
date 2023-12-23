@@ -24,6 +24,8 @@ if (keyboard_check_pressed(vk_enter)) {
 			if (!audio_is_playing(snd_nocking_door)) {
 			audio_play_sound(snd_nocking_door,1,0);
 			}
-        }
+        } else if (_porta.tipo_porta == "puzzle"){
+			room_goto(rm_puzzle2);
+			obj_personagem.persistent = false;}
     }
 }

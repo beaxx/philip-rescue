@@ -4,7 +4,6 @@ function scr_personagem_movendo(){
 	direita = keyboard_check(ord("D")) || keyboard_check(vk_right);
 esquerda = keyboard_check(ord("A")) || keyboard_check(vk_left);
 cima = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
-tiro = keyboard_check(vk_space);
 
 hveloc = (direita - esquerda) * veloc;
 
