@@ -5,7 +5,7 @@
 <p>Philip's Rescue é um jogo de plataforma em pixel-art onde você tem que resgatar um porco chamado Philip que fugiu de seu lar. Você joga com a Amanda, a dona do porquinho.<br>Para recupera-lo, Amanda terá de passar por diversos testes, como puzzles e obstáculos. O jogo contém 7 níveis, sendo simples e facéis.</p>
 <p>Esse jogo foi o meu primeiro contato com o desenvolvimento de games, pixel art e criação de sons. Foi uma ótima experiência, proporcionou mais conhecimento, abriu caminhos para outras engines e foi possível desenvolver uma melhor lógica de programação. Espero que goste!☆ </p> 
 
-<h2>🎮: Detalhes do projeto</h2>
+<h2>🎮 Detalhes do projeto</h2>
 <p align="center"><img src="https://github.com/beaxx/philip-rescue/assets/132356935/d91cb5c5-7fc6-4a9d-8470-72c39bed0a96"></p>
 <p>A identidade visual do jogo é baseada em cores terrosas e vivas, tentando ao maximo lembrar a atmosfera de um ambiente rural e natural. As prinicipais cores utilizadas estão abaixo. </p>
 
