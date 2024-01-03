@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_parede_v",
-    "path": "sprites/spr_parede_v/spr_parede_v.yy",
+    "name": "spr_parede_h",
+    "path": "sprites/spr_parede_h/spr_parede_h.yy",
   },
   "spriteMaskId": null,
   "visible": true,

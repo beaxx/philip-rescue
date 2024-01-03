@@ -1,5 +1,6 @@
-draw_sprite(spr_aviso, 0, 340, 430);
+draw_sprite(spr_aviso, 0, 540, 440);
 
 draw_set_color(c_white);
-draw_set_font(fnt_font_dialog);
-draw_text(232, 418, mensagem);
+draw_set_font(fnt_font_avisos);
+
+draw_text(442, 424, mensagem);

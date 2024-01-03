@@ -1,4 +1,3 @@
-      // abrindo portas
 if (keyboard_check_pressed(vk_enter)) {
     if (place_meeting(x, y, obj_porta)) {
         var _porta = instance_nearest(x, y, obj_porta);
@@ -14,7 +13,7 @@ if (keyboard_check_pressed(vk_enter)) {
         } else if (_porta.tipo_porta == "trancada") {
             if (tem_chave) {
 				audio_play_sound(snd_destrancando, 1, 0);
-                _porta.tipo_porta = "normal"; // Abre a porta trancada
+                _porta.tipo_porta = "normal";
             } else {
 				 if (!instance_exists(obj_avisos)) {
 					instance_create_depth(x, y, depth, obj_avisos);

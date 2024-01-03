@@ -3,14 +3,23 @@
 function scr_textos(){
 	switch npc_nome{
 		case "luna":
-			ds_grid_add_text("Boa tarde senhora!", spr_retrato_a, 0, "Amanda");
-			ds_grid_add_text("Ola mocinha, o que você esta fazendo aqui?", spr_retrato_l, 1, "Luna");
-			ds_grid_add_text("Vou procurar meu porquinho que sumiu, você o viu?", spr_retrato_a, 0, "Amanda");
-		    ds_grid_add_text("Não é uma boa ideia entrar nessa floresta.", spr_retrato_l, 1, "Luna");
-			ds_grid_add_text("Por que?", spr_retrato_a, 0, "Amanda");
-			ds_grid_add_text("Apenas não entre.", spr_retrato_l, 1, "Luna");
-			ds_grid_add_text("Eu preciso! É a vida do meu porquinho", spr_retrato_a, 0, "Amanda");
-			ds_grid_add_text("...", spr_retrato_l, 1, "Luna");
+			ds_grid_add_text("Boa tarde senhora!", spr_retrato_a, 0, "Amanda", snd_fala);
+			ds_grid_add_text("Ola mocinha, o que você esta fazendo aqui?", spr_retrato_l, 1, "Luna", snd_fala);
+			ds_grid_add_text("Vou procurar meu porquinho que sumiu, você o viu?", spr_retrato_a, 0, "Amanda", snd_fala);
+		    ds_grid_add_text("Não é uma boa ideia entrar nessa floresta.", spr_retrato_l2, 1, "Luna",snd_fala);
+			ds_grid_add_text("Por que?", spr_retrato_a2, 0, "Amanda", snd_fala);
+			ds_grid_add_text("É perigoso lá, tem muito que pode te machuar...", spr_retrato_l2, 1, "Luna", snd_fala);
+			ds_grid_add_text("Eu preciso! É a vida do meu porquinho", spr_retrato_a3, 0, "Amanda", snd_fala);
+			ds_grid_add_text("...", spr_retrato_l3, 1, "Luna", snd_fala);
+		break;
+			case "philip":
+			ds_grid_add_text("PHILIP!", spr_retrato_a4, 0, "Amanda", snd_fala);
+			ds_grid_add_text("Eu não acredito que consegui encontrar você!", spr_retrato_a4, 0, "Amanda", snd_fala);
+			ds_grid_add_text("oinc oinc", spr_retrato_p, 1, "philip", snd_philip);
+			ds_grid_add_text("Eu também estava com saudade.", spr_retrato_a5, 0, "Amanda", snd_fala);
+			ds_grid_add_text("oinc oinc oinc", spr_retrato_p, 1, "philip", snd_philip);
+			ds_grid_add_text("Sim, eu entendo. Vamos para casa agora.", spr_retrato_a5, 0, "Amanda", snd_fala);
+			ds_grid_add_text("oinc", spr_retrato_p, 1, "philip", snd_philip);
 		break;
 	}
 }
@@ -27,4 +36,6 @@ function ds_grid_add_text(){
 	_grid[# 1, _y] = argument[1];
 	_grid[# 2, _y] = argument[2];
 	_grid[# 3, _y] = argument[3];
+	_grid[# 4, _y] = argument[4];
+
 }

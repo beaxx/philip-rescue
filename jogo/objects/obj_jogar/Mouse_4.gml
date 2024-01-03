@@ -1,1 +1,1 @@
-room_goto(rm_quarto_a);
+room_goto(rm_cut);

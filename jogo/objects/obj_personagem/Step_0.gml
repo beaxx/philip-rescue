@@ -33,8 +33,8 @@ if alarm[0] > 0{
 }
 
 // dialogo npc
-if distance_to_object(obj_par_npc) <= 40{
-	instance_create_layer(x,y,"indicador",obj_indicador);
+if distance_to_object(obj_par_npc) <= 20{
+	instance_create_layer(x,y,"Indicador",obj_indicador);
 	if keyboard_check_pressed(vk_enter) && !dialogo_ativo{
 		var _npc = instance_nearest(x, y, obj_par_npc);
 		var _dialogo = instance_create_layer(x, y, "Dialogo", obj_dialogo)
@@ -49,6 +49,11 @@ if (place_meeting(x, y, obj_save)) {
 	salvo = true;
     audio_play_sound(snd_toque,1, 0);
     game_save("save"); 
+}
+
+if(y<35){
+	x+=0.5;
+	y-=0;
 }
 
 if(y>480 || vida <= 0){

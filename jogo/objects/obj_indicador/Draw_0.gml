@@ -1,4 +1,7 @@
-draw_sprite(spr_indicador, image_index, obj_par_npc.x - 8, obj_par_npc.y - 53);
+draw_sprite(spr_indicador, 1, obj_personagem.x - 8, obj_personagem.y - 70);
+
+
+
 
 
 

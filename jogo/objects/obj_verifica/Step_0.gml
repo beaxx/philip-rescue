@@ -39,9 +39,9 @@ if(instance_exists(obj_senha1)){
 	)abriu = true;
 }
 if abriu == true{
-	if(contador <= 90){
+	if(contador <= 60){
 	contador++
-	if(contador >=90){
+	if(contador >=60){
 		room_goto(rm_casa1);
 			audio_play_sound(snd_destrancando,1, 0);
 

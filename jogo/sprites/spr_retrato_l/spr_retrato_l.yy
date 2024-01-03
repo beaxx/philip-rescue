@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_retrato_l",
-  "bbox_bottom": 63,
-  "bbox_left": 1,
-  "bbox_right": 60,
-  "bbox_top": 2,
+  "bbox_bottom": 83,
+  "bbox_left": 4,
+  "bbox_right": 79,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f196ada-8be7-4a6d-8120-b5b55a1eadd4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d724818-71f8-4a28-af68-b4c767386b40",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 84,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3cd39e64-0187-499e-89e0-527cf245a30f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"93ccf6c1-bcaf-4b35-9663-947921813150","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "personagens",
+    "path": "folders/Sprites/personagens.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9f196ada-8be7-4a6d-8120-b5b55a1eadd4","path":"sprites/spr_retrato_l/spr_retrato_l.yy",},},},"Disabled":false,"id":"5ce1dd9f-78df-4b22-8182-6629a3b1054d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d724818-71f8-4a28-af68-b4c767386b40","path":"sprites/spr_retrato_l/spr_retrato_l.yy",},},},"Disabled":false,"id":"2ef64c8c-58aa-445a-9bd2-372ab68fa138","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 84,
 }

@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_enfeite_casa2",
   "bbox_bottom": 447,
-  "bbox_left": 72,
+  "bbox_left": 58,
   "bbox_right": 627,
-  "bbox_top": 302,
+  "bbox_top": 56,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "tile set",
+    "path": "folders/Sprites/tile set.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

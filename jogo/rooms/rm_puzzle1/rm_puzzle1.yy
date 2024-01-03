@@ -28,6 +28,7 @@
     {"name":"inst_709571DB","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},
     {"name":"inst_46BD9486","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},
     {"name":"inst_27CD0770","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},
+    {"name":"inst_58E5C6D0","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -53,6 +54,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_709571DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_quadrado18","path":"objects/obj_quadrado18/obj_quadrado18.yy",},"properties":[],"rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"x":307.0,"y":395.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46BD9486","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_quadrado19","path":"objects/obj_quadrado19/obj_quadrado19.yy",},"properties":[],"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":402.0,"y":395.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27CD0770","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_quadrado20","path":"objects/obj_quadrado20/obj_quadrado20.yy",},"properties":[],"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":497.0,"y":395.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58E5C6D0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_voltamenu","path":"objects/obj_voltamenu/obj_voltamenu.yy",},"properties":[],"rotation":0.0,"scaleX":1.0851111,"scaleY":0.984375,"x":48.0,"y":37.572716,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_mesa","path":"sprites/spr_mesa/spr_mesa.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
