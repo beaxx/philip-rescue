@@ -23,4 +23,5 @@
 <img src="https://img.shields.io/badge/Pixel%20Studio-red">
 <img src="https://img.shields.io/badge/FL%20Studio-darkorange">
 <img src="https://img.shields.io/badge/Audacity-yellow">
+<img src="https://img.shields.io/badge/BeepBox-purple">
 </P>
