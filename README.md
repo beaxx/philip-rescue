@@ -20,6 +20,7 @@
   <li><a href="">OperaGX games</a></li>
   <li><a href="">Itch io</a></li>
 </ul>
+ ⚠️O jogo não é compativel com celulares ⚠️
 <h2>📃 Documentação </h2>
 A documentação po de ser encontrada nos arquivos do repositório ou <a href="https://github.com/beaxx/philip-rescue/files/14089675/philip.s.rescue.pdf">aqui</a>
 
