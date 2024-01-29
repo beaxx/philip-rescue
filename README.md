@@ -15,7 +15,14 @@
 
 
 <h2>📁 Acesso ao projeto</h2>
-<img src="https://img.shields.io/badge/em%20desenvolvimento-green">
+<p>Pode ser acessado pela web ou instalável</p>
+<ul>
+  <li><a href="">OperaGX games</a></li>
+  <li><a href="">Itch io</a></li>
+</ul>
+<h2>📃 Documentação </h2>
+A documentação po de ser encontrada nos arquivos do repositório ou <a href="https://github.com/beaxx/philip-rescue/files/14089675/philip.s.rescue.pdf">aqui</a>
+
 <h2>🔨 Tecnologias utilizadas</h2>
 <P>
 <img src="https://img.shields.io/badge/GameMaker-darkgreen">
@@ -23,5 +30,4 @@
 <img src="https://img.shields.io/badge/Pixel%20Studio-red">
 <img src="https://img.shields.io/badge/FL%20Studio-darkorange">
 <img src="https://img.shields.io/badge/Audacity-yellow">
-<img src="https://img.shields.io/badge/BeepBox-purple">
 </P>
