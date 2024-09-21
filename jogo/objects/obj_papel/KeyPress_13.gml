@@ -4,7 +4,7 @@ if (fez == false){
 	room_goto(rm_puzzle1);
 	obj_personagem.persistent = false;
 	fez = true
-	instance_destroy();
+	// instance_destroy();
 	}
 }else if (room = rm_casa1){
 	room_goto(rm_puzzle3);

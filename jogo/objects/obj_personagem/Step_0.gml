@@ -32,6 +32,21 @@ if alarm[0] > 0{
 	image_alpha = 1;	
 }
 
+if(room = rm_quarto_a){
+	// instance_create_layer(400,300,"tut",obj_tut);
+	if(contador < 50){
+		contador++;
+		if(contador >= 50){
+			if (room != rm_tut){
+				if instance_exists(obj_personagem){
+					obj_personagem.persistent = false;
+					}   
+					room_goto(rm_tut);
+			}
+		}
+	}
+}
+
 // dialogo npc
 if distance_to_object(obj_par_npc) <= 20{
 	instance_create_layer(x,y,"Indicador",obj_indicador);

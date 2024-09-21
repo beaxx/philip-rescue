@@ -29,3 +29,4 @@ mensagem_exibida = false;
 salvo = false;
 
 morte = false;
+contador = 0;
