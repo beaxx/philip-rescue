@@ -21,14 +21,14 @@ obj_quadrado19.image_angle == 0 &&
 obj_quadrado20.image_angle == -360) {
 terminou = true;
 }
-if terminou == true{
-	if(contador <= 120){
-	contador++
-	if(contador >=120){
-		room_goto(rm_quarto_a);
-	}
-	}
-}
+if terminou == true {
+    // Faz a contagem para voltar à room quarto
+    if (contador <= 100) {
+        contador++;
+        if (contador >= 100) {
+            room_goto(rm_quarto_a);
+        }
+    }
 }
 
 if(instance_exists(obj_senha1)){
@@ -48,4 +48,4 @@ if abriu == true{
 	}
 }
 
-}
+}}

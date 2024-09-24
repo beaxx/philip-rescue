@@ -91,7 +91,6 @@
     {"name":"obj_verifica","order":30,"path":"objects/obj_verifica/obj_verifica.yy",},
     {"name":"obj_voltamenu","order":9,"path":"objects/obj_voltamenu/obj_voltamenu.yy",},
     {"name":"obj_voltar","order":3,"path":"objects/obj_voltar/obj_voltar.yy",},
-    {"name":"Object72","order":40,"path":"objects/Object72/Object72.yy",},
     {"name":"rm_casa1","order":8,"path":"rooms/rm_casa1/rm_casa1.yy",},
     {"name":"rm_credito1","order":27,"path":"rooms/rm_credito1/rm_credito1.yy",},
     {"name":"rm_cut","order":28,"path":"rooms/rm_cut/rm_cut.yy",},

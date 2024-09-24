@@ -16,9 +16,10 @@
   "isDnd":false,
   "layers":[
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":45,"TileCompressedData":[
-          -1272,-2147483648,23,101,0,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,-2147483648,
-          -2147483648,0,-3,-2147483648,5,0,-2147483648,0,-2147483648,0,-14,-2147483648,33,126,0,127,128,129,130,
-          131,132,133,134,135,136,137,138,139,140,141,142,143,144,-2147483648,0,-2147483648,-2147483648,0,0,-2147483648,
+          -1229,-2147483648,20,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,
+          -23,-2147483648,23,101,0,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,
+          196,0,-3,-2147483648,5,0,-2147483648,0,-2147483648,0,-14,-2147483648,33,126,0,127,128,129,130,131,132,
+          133,134,135,136,137,138,139,140,141,142,143,144,-2147483648,0,-2147483648,-2147483648,0,0,-2147483648,
           0,-2147483648,0,-2147483648,0,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_textos","path":"tilesets/ts_textos/ts_textos.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
