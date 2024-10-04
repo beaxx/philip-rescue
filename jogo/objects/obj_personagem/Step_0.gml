@@ -49,7 +49,6 @@ if(room = rm_quarto_a){
 
 // dialogo npc
 if distance_to_object(obj_par_npc) <= 20{
-	instance_create_layer(x,y,"Indicador",obj_indicador);
 	if keyboard_check_pressed(vk_enter) && !dialogo_ativo{
 		var _npc = instance_nearest(x, y, obj_par_npc);
 		var _dialogo = instance_create_layer(x, y, "Dialogo", obj_dialogo)

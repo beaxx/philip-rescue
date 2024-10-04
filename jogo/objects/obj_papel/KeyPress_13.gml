@@ -10,11 +10,12 @@ if (place_meeting(x, y, obj_personagem)) {
             room_goto(rm_puzzle1);
         }
     }
+	else if (room = rm_casa1){
+			room_goto(rm_puzzle3);
+			obj_personagem.persistent = false;
+			instance_destroy();
 }
-}else if (room = rm_casa1){
-	room_goto(rm_puzzle3);
-	obj_personagem.persistent = false;
-	instance_destroy();
+}
 }
 
 

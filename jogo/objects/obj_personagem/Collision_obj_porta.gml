@@ -12,8 +12,10 @@ if (keyboard_check_pressed(vk_enter)) {
             }
         } else if (_porta.tipo_porta == "trancada") {
             if (tem_chave) {
-				audio_play_sound(snd_destrancando, 1, 0);
-                _porta.tipo_porta = "normal";
+				audio_play_sound(snd_destrancando,1,0);
+				 room_goto(other.sala);
+				x = other.personagemx;
+				y = other.personagemy;
             } else {
 				 if (!instance_exists(obj_avisos)) {
 					instance_create_depth(x, y, depth, obj_avisos);

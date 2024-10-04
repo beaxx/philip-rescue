@@ -6,9 +6,9 @@ if inicializar == true{
 	if texto_grid[# INFOS.LADO, index] == 0{
 		draw_sprite(spr_caixa_texto, image_index, 104, 10);
 		draw_set_color(c_black);
-		draw_text(124, 24, texto_grid[# INFOS.NOME, index]);
+		draw_text(138, 30, texto_grid[# INFOS.NOME, index]);
 		draw_set_color(c_dkgray);
-		draw_text_ext(124, 44, _texto, 15, 500);
+		draw_text_ext(140, 50, _texto, 15, 500);
 		draw_sprite(_sprite, image_index, 0, 10);
 	}
 	else{
