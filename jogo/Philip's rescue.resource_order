@@ -217,7 +217,6 @@
     {"name":"spr_voltamenu","order":9,"path":"sprites/spr_voltamenu/spr_voltamenu.yy",},
     {"name":"spr_voltar","order":3,"path":"sprites/spr_voltar/spr_voltar.yy",},
     {"name":"Sprite106","order":44,"path":"sprites/Sprite106/Sprite106.yy",},
-    {"name":"Sprite107","order":45,"path":"sprites/Sprite107/Sprite107.yy",},
     {"name":"Sprite82","order":6,"path":"sprites/Sprite82/Sprite82.yy",},
     {"name":"Sprite98","order":37,"path":"sprites/Sprite98/Sprite98.yy",},
     {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},
