@@ -4,9 +4,7 @@ if (keyboard_check_pressed(vk_enter)) {
             dialogo_ativo = false; 
             instance_destroy();
         }
-    }
-
-
+}
 
 
 

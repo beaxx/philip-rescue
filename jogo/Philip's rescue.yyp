@@ -56,6 +56,7 @@
     {"id":{"name":"obj_avisos","path":"objects/obj_avisos/obj_avisos.yy",},},
     {"id":{"name":"obj_bala","path":"objects/obj_bala/obj_bala.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_chave_tela","path":"objects/obj_chave_tela/obj_chave_tela.yy",},},
     {"id":{"name":"obj_chave","path":"objects/obj_chave/obj_chave.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_dialogo_automatico","path":"objects/obj_dialogo_automatico/obj_dialogo_automatico.yy",},},

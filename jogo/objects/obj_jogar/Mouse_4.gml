@@ -1,1 +1,1 @@
-room_goto(rm_rua);
+room_goto(rm_casa1);

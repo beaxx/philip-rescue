@@ -25,3 +25,4 @@ if(distance_to_object(obj_chave) <= 15){
 draw_sprite(spr_indicador,0, x - 10 , y - 70);
 }
 }
+

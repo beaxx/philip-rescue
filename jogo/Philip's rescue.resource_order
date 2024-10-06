@@ -37,6 +37,7 @@
     {"name":"obj_avisos","order":21,"path":"objects/obj_avisos/obj_avisos.yy",},
     {"name":"obj_bala","order":28,"path":"objects/obj_bala/obj_bala.yy",},
     {"name":"obj_camera","order":16,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_chave_tela","order":40,"path":"objects/obj_chave_tela/obj_chave_tela.yy",},
     {"name":"obj_chave","order":18,"path":"objects/obj_chave/obj_chave.yy",},
     {"name":"obj_controle","order":2,"path":"objects/obj_controle/obj_controle.yy",},
     {"name":"obj_dialogo_automatico","order":38,"path":"objects/obj_dialogo_automatico/obj_dialogo_automatico.yy",},

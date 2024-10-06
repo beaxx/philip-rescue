@@ -14,3 +14,4 @@ draw_sprite(spr_retrato_a, image_index, 0, 10);
 
 
 
+

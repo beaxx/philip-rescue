@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_caixa_texto",
   "bboxMode":0,
-  "bbox_bottom":99,
+  "bbox_bottom":119,
   "bbox_left":0,
   "bbox_right":599,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e95cf7bd-a63c-4547-8892-72f17821f0c6","name":"e95cf7bd-a63c-4547-8892-72f17821f0c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"56542927-41a9-48a3-850a-196e00ac3a69","name":"56542927-41a9-48a3-850a-196e00ac3a69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":100,
+  "height":120,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cff209f2-f005-4d2a-9231-a2056be9236d","blendMode":0,"displayName":"default","isLocked":false,"name":"cff209f2-f005-4d2a-9231-a2056be9236d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1d4d8a45-11ce-4f86-b000-d3eb375913e3","blendMode":0,"displayName":"default","isLocked":false,"name":"1d4d8a45-11ce-4f86-b000-d3eb375913e3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_caixa_texto",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e95cf7bd-a63c-4547-8892-72f17821f0c6","path":"sprites/spr_caixa_texto/spr_caixa_texto.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9108456a-6501-498b-8260-9d537fbde834","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"56542927-41a9-48a3-850a-196e00ac3a69","path":"sprites/spr_caixa_texto/spr_caixa_texto.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"17c27449-a7df-4aec-adab-32f7077effa6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
