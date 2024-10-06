@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ajuda",
-    "path":"sprites/spr_ajuda/spr_ajuda.yy",
+    "name":"spr_opcoes",
+    "path":"sprites/spr_opcoes/spr_opcoes.yy",
   },
   "spriteMaskId":null,
   "visible":true,

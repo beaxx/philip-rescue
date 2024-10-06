@@ -17,9 +17,9 @@ if (keyboard_check_pressed(vk_enter)) {
 				x = other.personagemx;
 				y = other.personagemy;
 				
-				var chave_na_tela = instance_find(obj_chave_na_tela, 0);
-                if (chave_na_tela) {
-                    instance_destroy(chave_na_tela);
+				var _chave_na_tela = instance_find(obj_chave_tela, 0);
+                if (_chave_na_tela) {
+                    instance_destroy(_chave_na_tela);
                 }
 				global.tem_chave = false;
 				

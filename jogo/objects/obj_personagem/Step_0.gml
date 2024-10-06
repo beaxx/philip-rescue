@@ -47,6 +47,10 @@ if(room = rm_quarto_a){
 	}
 }
 
+if(global.tem_chave){
+	  instance_create_depth(0, 0, depth, obj_chave_tela);
+}
+
 // dialogo npc
 if distance_to_object(obj_par_npc) <= 20{
 	if keyboard_check_pressed(vk_enter) && !dialogo_ativo{

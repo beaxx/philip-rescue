@@ -1,1 +1,1 @@
-draw_sprite(spr_chave, 0,x,y);
+draw_sprite(spr_chave, 0,x ,y);
