@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_466BAD10","path":"rooms/rm_instrucao/rm_instrucao.yy",},
     {"name":"inst_3E2C5F84","path":"rooms/rm_instrucao/rm_instrucao.yy",},
+    {"name":"inst_2E0BBC8D","path":"rooms/rm_instrucao/rm_instrucao.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_466BAD10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_466BAD10","objectId":{"name":"obj_personagem_explicando","path":"objects/obj_personagem_explicando/obj_personagem_explicando.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.034,"scaleY":1.0,"x":466.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_3E2C5F84","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E2C5F84","objectId":{"name":"obj_voltamenu","path":"objects/obj_voltamenu/obj_voltamenu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":17.0,"y":12.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2E0BBC8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E0BBC8D","objectId":{"name":"obj_on_musica","path":"objects/obj_on_musica/obj_on_musica.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":192.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":10.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_fundo_inst","path":"sprites/spr_fundo_inst/spr_fundo_inst.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

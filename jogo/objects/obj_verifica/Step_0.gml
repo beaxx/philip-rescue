@@ -19,9 +19,9 @@ obj_quadrado17.image_angle == 0 &&
 obj_quadrado18.image_angle == -360 &&
 obj_quadrado19.image_angle == 0 &&
 obj_quadrado20.image_angle == -360) {
-terminou = true;
+global.terminou = true;
 }
-if terminou == true{
+if (global.terminou){
 	if(contador <= 120){
 	contador++
 	if(contador >=120){
@@ -31,21 +31,21 @@ if terminou == true{
 }
 }
 
+
 if(instance_exists(obj_senha1)){
 	if( obj_senha1.image_index == 2 &&
 	obj_senha2.image_index == 7&&
 	obj_senha3.image_index == 9&&
-	obj_senha4.image_index == 9
-	)abriu = true;
+	obj_senha4.image_index == 9	
+	) abriu = true;
 }
-if abriu == true{
+if (abriu) {
 	if(contador <= 60){
 	contador++
 	if(contador >=60){
 		room_goto(rm_casa1);
 			audio_play_sound(snd_destrancando,1, 0);
-
 	}
 }
-
 }
+

@@ -1,3 +1,3 @@
-fez = false;
+global.fez = false;
 
 

@@ -32,8 +32,10 @@ if alarm[0] > 0{
 	image_alpha = 1;	
 }
 
-if(room = rm_quarto_a){
-	// instance_create_layer(400,300,"tut",obj_tut);
+// morte com espinho
+
+if(ja_apareceu == false){
+if(room == rm_quarto_a){
 	if(contador < 50){
 		contador++;
 		if(contador >= 50){
@@ -41,11 +43,13 @@ if(room = rm_quarto_a){
 				if instance_exists(obj_personagem){
 					obj_personagem.persistent = false;
 					}   
-					room_goto(rm_tut);
+					room_goto(rm_tut);			
 			}
 		}
 	}
 }
+}
+
 
 if(global.tem_chave){
 	  instance_create_depth(0, 0, depth, obj_chave_tela);
@@ -54,14 +58,12 @@ if(global.tem_chave){
 // dialogo npc
 if distance_to_object(obj_par_npc) <= 20{
 	if keyboard_check_pressed(vk_enter) && !dialogo_ativo{
+		dialogo_ativo = true;
+		dialogo_andamento = true;
 		var _npc = instance_nearest(x, y, obj_par_npc);
 		var _dialogo = instance_create_layer(x, y, "Dialogo", obj_dialogo)
 		_dialogo.npc_nome = _npc.nome;
-		dialogo_ativo = true;
-		dialogo_andamento = true;
-	}
-
-}
+	}}
 
 if (place_meeting(x, y, obj_save)) {
 	salvo = true;
@@ -74,12 +76,37 @@ if(y<35){
 	y-=0;
 }
 
-if(y>480 || vida <= 0){
-	sprite_index = spr_a_morrendo;	
-	if (image_index >= 5) { 
-        image_speed = 0;
+if (place_meeting(x, y, obj_espinho)) {
+    if (vida > 0) { 
+        vida = 0;
+        if (!morte_som_tocando) {
+            audio_play_sound(snd_morte, 1, 0);
+            morte_som_tocando = true;
+        }
+
+    }
+	
+} else {
+    morte_som_tocando = false;
+}
+
+if(y>480){ 
+	if (vida > 0) { 
+        vida = 0;
+        if (!morte_som_tocando) {
+            audio_play_sound(snd_morte, 1, 0);
+            morte_som_tocando = true;
+        }
+
+    }
+	
+} else {
+    morte_som_tocando = false;
+}
+
+if(vida <= 0){
+		visible = false;
 		morte = true;
-    }	
 }
 
 

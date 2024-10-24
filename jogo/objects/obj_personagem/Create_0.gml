@@ -28,5 +28,15 @@ chave_coletada = false;
 mensagem_exibida = false;
 salvo = false;
 
+// aqui é tudo para matar
 morte = false;
+morrendo = false;
+tempo_morte = 1;
 contador = 0;
+morte_som_tocando = false;
+
+// variavel do puzzle 1
+tem_senha = false;
+
+// n aparecer tutorial automaticamente
+ja_apareceu = false;

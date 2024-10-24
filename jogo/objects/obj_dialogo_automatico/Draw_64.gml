@@ -1,4 +1,4 @@
-if (obj_papel.fez == true && room == rm_quarto_a && dialogo_ativo) {
+if (global.fez == true && room == rm_quarto_a && dialogo_ativo) {
 draw_sprite(spr_caixa_texto, image_index, 100, 10);
 draw_set_font(fnt_font_dialog);
 draw_set_color(c_dkgrey);

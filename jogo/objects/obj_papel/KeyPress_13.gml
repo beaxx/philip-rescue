@@ -1,10 +1,10 @@
 if(visible){
 if (place_meeting(x, y, obj_personagem)) {
     if (room == rm_quarto_a) {
-        if (fez == false) {
+        if (global.fez == false) {
             room_goto(rm_puzzle1);
             obj_personagem.persistent = false;
-            fez = true;
+            global.fez = true;
 			visible = false;
         } else {
             room_goto(rm_puzzle1);

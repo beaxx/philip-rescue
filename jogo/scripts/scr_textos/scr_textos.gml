@@ -5,10 +5,10 @@ function scr_textos(){
 		case "luna":
 			ds_grid_add_text("Boa tarde senhora!", spr_retrato_a, 0, "Amanda", snd_fala);
 			ds_grid_add_text("Ola mocinha, o que você esta fazendo aqui?", spr_retrato_l, 1, "Luna", snd_fala);
-			ds_grid_add_text("Vou procurar meu porquinho que sumiu, você o viu?", spr_retrato_a, 0, "Amanda", snd_fala);
+			ds_grid_add_text("Vou procurar meu porquinho que sumiu.", spr_retrato_a, 0, "Amanda", snd_fala);
 		    ds_grid_add_text("Não é uma boa ideia entrar nessa floresta.", spr_retrato_l2, 1, "Luna",snd_fala);
 			ds_grid_add_text("Por que?", spr_retrato_a2, 0, "Amanda", snd_fala);
-			ds_grid_add_text("É perigoso lá, tem muito que pode te machuar...", spr_retrato_l2, 1, "Luna", snd_fala);
+			ds_grid_add_text("É perigoso, você pode se machucar...", spr_retrato_l2, 1, "Luna", snd_fala);
 			ds_grid_add_text("Eu preciso! É a vida do meu porquinho", spr_retrato_a3, 0, "Amanda", snd_fala);
 			ds_grid_add_text("...", spr_retrato_l3, 1, "Luna", snd_fala);
 		break;
