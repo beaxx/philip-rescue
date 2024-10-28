@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_musica",
+  "%Name":"snd_cut",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":60.60408,
-  "name":"snd_musica",
+  "duration":14.759184,
+  "name":"snd_cut",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_musica.mp3",
+  "soundFile":"snd_cut.mp3",
   "type":0,
   "volume":1.0,
 }
