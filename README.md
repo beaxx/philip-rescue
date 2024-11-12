@@ -22,7 +22,7 @@
 </ul>
  ⚠️O jogo não é compativel com celulares ⚠️
 <h2>📃 Documentação </h2>
-A documentação pode ser encontrada nos arquivos do repositório ou <a href="https://github.com/user-attachments/files/17514016/GDD.-.Philip.s.Rescue.pdf">aqui</a>
+A documentação pode ser encontrada nos arquivos do repositório ou <a href="https://github.com/user-attachments/files/17549903/GDD.-.Game.Desing.Document.pdf">aqui</a>
 
 <h2>🔨 Tecnologias utilizadas</h2>
 
