@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Philip's rescue",
   "resources":[
@@ -197,6 +197,7 @@
     {"id":{"name":"spr_capa","path":"sprites/spr_capa/spr_capa.yy",},},
     {"id":{"name":"spr_capa2","path":"sprites/spr_capa2/spr_capa2.yy",},},
     {"id":{"name":"spr_capa3","path":"sprites/spr_capa3/spr_capa3.yy",},},
+    {"id":{"name":"spr_capa4","path":"sprites/spr_capa4/spr_capa4.yy",},},
     {"id":{"name":"spr_carta","path":"sprites/spr_carta/spr_carta.yy",},},
     {"id":{"name":"spr_chave","path":"sprites/spr_chave/spr_chave.yy",},},
     {"id":{"name":"spr_controlesom","path":"sprites/spr_controlesom/spr_controlesom.yy",},},

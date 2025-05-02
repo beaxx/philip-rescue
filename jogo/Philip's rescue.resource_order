@@ -168,6 +168,7 @@
     {"name":"spr_capa","order":35,"path":"sprites/spr_capa/spr_capa.yy",},
     {"name":"spr_capa2","order":36,"path":"sprites/spr_capa2/spr_capa2.yy",},
     {"name":"spr_capa3","order":39,"path":"sprites/spr_capa3/spr_capa3.yy",},
+    {"name":"spr_capa4","order":47,"path":"sprites/spr_capa4/spr_capa4.yy",},
     {"name":"spr_carta","order":40,"path":"sprites/spr_carta/spr_carta.yy",},
     {"name":"spr_chave","order":14,"path":"sprites/spr_chave/spr_chave.yy",},
     {"name":"spr_controlesom","order":6,"path":"sprites/spr_controlesom/spr_controlesom.yy",},
