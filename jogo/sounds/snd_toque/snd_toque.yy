@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.548571,
+  "duration":0.50600904,
   "name":"snd_toque",
   "parent":{
     "name":"Sons",

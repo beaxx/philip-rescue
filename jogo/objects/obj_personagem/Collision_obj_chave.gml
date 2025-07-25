@@ -1,4 +1,4 @@
-if keyboard_check_pressed(vk_enter) {
+if keyboard_check_pressed(ord("E")) {
     if (instance_exists(obj_chave)) {
         global.tem_chave = true; 
         instance_destroy(obj_chave);

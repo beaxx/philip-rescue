@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(ord("E"))) {
     if (place_meeting(x, y, obj_porta)) {
         var _porta = instance_nearest(x, y, obj_porta);
         if (_porta.tipo_porta == "normal") {

@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(ord("E"))) {
 if (room= rm_tut) {
     obj_pausar.active = true;
     previous_room = room;}

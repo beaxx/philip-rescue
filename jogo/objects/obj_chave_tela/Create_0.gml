@@ -1,2 +1,2 @@
-x = room_width - 60;
+x = room_width - 100;
 y = 20;

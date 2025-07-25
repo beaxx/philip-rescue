@@ -4,7 +4,7 @@ if (!inicializar) {
         alarm[0] = 2;
     }
 
-    if (keyboard_check_pressed(vk_enter)) {
+    if (keyboard_check_pressed(ord("E"))) {
         if (caractere < string_length(texto_grid[# INFOS.TEXTO, index])) {
             caractere = string_length(texto_grid[# INFOS.TEXTO, index]);
         } else {

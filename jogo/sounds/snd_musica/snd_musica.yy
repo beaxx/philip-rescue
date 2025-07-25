@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":60.60408,
+  "duration":60.551994,
   "name":"snd_musica",
   "parent":{
     "name":"Sons",

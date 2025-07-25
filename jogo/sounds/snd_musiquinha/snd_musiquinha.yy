@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":12.094667,
+  "duration":12.094694,
   "name":"snd_musiquinha",
   "parent":{
     "name":"Sons",
